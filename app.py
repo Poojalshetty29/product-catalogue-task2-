@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
+
 products = [{"id": 1, "name": "Shoe"}, {"id": 2, "name": "Bag"}]
 
 @app.route('/health')
